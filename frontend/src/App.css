@@ -4,8 +4,8 @@
 }
 
 body{
-  background-image: url("images/textura.jpg");
-  color: aliceblue;
+  background-color: #f3f2cd;
+  color: #f3f2cd;
 }
 
 .app-container {
@@ -20,10 +20,8 @@ body{
   width: max-content;
   height: max-content;
   margin-top: 20px;
-  border: 3px solid black;
-  border-radius: 5px;
+  border-radius: 20px;
   background-color: #303031;
-  border-color: aliceblue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,7 +30,7 @@ body{
 .register-title {
   text-align: center;
   margin-bottom: 20px;
-  font-family: fantasy;
+  font-family: 'Caveat';
   font-weight: 100;
 }
 
@@ -41,35 +39,37 @@ body{
   margin: 10px auto;
   padding: 7px 5px;
   border-radius: 5px;
+  font-family: 'Caveat';
+  font-size: 20px;
+  width: 250px;
+  background-color: #f3f2cd;
 }
 
 .register-button {
   padding: 2px 5px;
-  font-family: 'Segoe UI';
+  font-family: 'Caveat';
+  font-size: 20px;
   width: 50%;
   border-radius: 5px;
+  background-color: #f3f2cd;
 }
 .register-button:hover{
   font-weight: bold;
-  border: 2px solid black;
+  border: 2px solid;
   border-radius: 5px;
-}
-
-.card-title{
-  font-size: 20px;
-}
-
-.card-cost{
-  text-align: end;
+  color: #560202;
 }
 
 .menu-title{
   text-align: center;
   margin: 10px auto;
+  font-family: 'Caveat';
+  font-size: 40px;
+  color: #f3f2cd;
 }
 .menu{
   border: 3px solid;
-  border-radius: 5px;
+  border-radius: 20px;
   margin-top: 20px;
   width: 90%;
   background-color: #303031;
@@ -84,12 +84,13 @@ header {
   align-items: center;
   text-align: center;
   padding: 60px;
+  border-bottom: 10px solid #560202;
 }
 
 header p{
   color:#560202;
   font-size: 50px;
-  font-family: Teko;
+  font-family: 'Caveat';
   border: 1px solid;
   border-color: #f3f2cd;
   border-radius: 10px;
@@ -99,7 +100,7 @@ header p{
 }
 
 #header-title{
-  font-family: 'Indie Flower', 'Noto Serif Japonese';
+  font-family: 'Ephesis';
   font-weight: 600;
   font-size: 100px;
   color: #560202;

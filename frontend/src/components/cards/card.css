@@ -2,6 +2,8 @@
     width: 99%;
     padding: 5px;
     cursor: pointer;
+    font-family: 'Caveat';
+    border-bottom: 3px dashed #f3f2cd;
   }
   
   .card-id {
@@ -18,21 +20,32 @@
   }
 
   .card-container:hover > .card-id{
-    background-color: aliceblue;
-    color: aliceblue;
+    background-color: #f3f2cd;
+    color: #f3f2cd;
   }
   
   .card-title {
     display: inline;
+    font-family: 'Ephesis';
+    font-weight: 600;
+    font-size: 35px;
   }
   
   .card-cost {
     margin-top: 15px;
+    text-align: end;
+    font-size: 20px;
   }
   
   .card-container:hover {
-    background-color: aliceblue;
-    color: #303031;
+    background-color: #f3f2cd;
+    color: #560202;
+    border: 2px solid #560202;
+    border-radius: 5px;
+  }
+
+  .card-category{
+    font-size: 20px
   }
 
   

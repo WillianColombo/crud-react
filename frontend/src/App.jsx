@@ -89,7 +89,7 @@ export default function App() {
             category={val.category}
           />
         ))}
-      </div>
     </div>
+    </div >
   );
 }
