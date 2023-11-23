@@ -1,0 +1,38 @@
+.card-container {
+    width: 99%;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .card-id {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    background-color: #303031;
+    border-radius: 5px;
+    color: #303031;
+    font-weight: 700;
+    padding: 3px;
+    font-family: monospace;
+  }
+
+  .card-container:hover > .card-id{
+    background-color: aliceblue;
+    color: aliceblue;
+  }
+  
+  .card-title {
+    display: inline;
+  }
+  
+  .card-cost {
+    margin-top: 15px;
+  }
+  
+  .card-container:hover {
+    background-color: aliceblue;
+    color: #303031;
+  }
+
+  

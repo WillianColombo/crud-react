@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("images/textura.jpg");
+  color: aliceblue;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register-container {
+  padding: 10px 20px;
+  width: max-content;
+  height: max-content;
+  margin-top: 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: #303031;
+  border-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: fantasy;
+  font-weight: 100;
+}
+
+.register-input {
+  display: block;
+  margin: 10px auto;
+  padding: 7px 5px;
+  border-radius: 5px;
+}
+
+.register-button {
+  padding: 2px 5px;
+  font-family: 'Segoe UI';
+  width: 50%;
+  border-radius: 5px;
+}
+.register-button:hover{
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.card-title{
+  font-size: 20px;
+}
+
+.card-cost{
+  text-align: end;
+}
+
+.menu-title{
+  text-align: center;
+  margin: 10px auto;
+}
+.menu{
+  border: 3px solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 90%;
+  background-color: #303031;
+}
+
+header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px;
+}
+
+header p{
+  color:#560202;
+  font-size: 50px;
+  font-family: Teko;
+  border: 1px solid;
+  border-color: #f3f2cd;
+  border-radius: 10px;
+  padding: 0px 15px 0px 15px;
+  background-color: #f3f2cd;
+  margin: 50px 0px 30px 0px;
+}
+
+#header-title{
+  font-family: 'Indie Flower', 'Noto Serif Japonese';
+  font-weight: 600;
+  font-size: 100px;
+  color: #560202;
+  -webkit-text-stroke: #f3f2cd00 1px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: #f3f2cd;
+  background-color: #f3f2cd;
+  padding: 0px 30px 0px 30px;
+  margin: 60px 0px 30px 0px;
+}
+
+#capa_sobre{
+  background-image: url('images\background.jpeg');
+}
